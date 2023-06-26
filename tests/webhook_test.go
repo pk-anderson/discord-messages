@@ -8,7 +8,7 @@ import (
 )
 
 func TestSendWithWebhook(t *testing.T) {
-	message := "Test Message"
+	message := "Test New Message"
 
 	//create client and service
 	client := pkg.DiscordClient{

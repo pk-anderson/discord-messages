@@ -8,7 +8,7 @@ import (
 )
 
 func TestSendWithBot(t *testing.T) {
-	message := "Test Message"
+	message := "Test New message"
 
 	//create client and service
 	client := pkg.DiscordClient{
